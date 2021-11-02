@@ -1,0 +1,5 @@
+<div *ngIf="redditItem">
+    <h2><a href="https://www.reddit.com{{ redditItem.data.permalink }}">{{redditItem.data.title}}</a></h2>
+    <img src="{{ redditItem.data.thumbnail }}" /><br />
+
+</div>
